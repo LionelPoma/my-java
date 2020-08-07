@@ -19,6 +19,7 @@ public class AppTest {
 	@Test
 	public void testHex() {
 		String expected = "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5";
+		System.out.println("wololo");
 		assertEquals(expected, App.sha256(INPUT));
 	}
 	
